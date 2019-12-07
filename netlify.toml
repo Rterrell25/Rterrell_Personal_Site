@@ -1,4 +1,4 @@
 [build]
-base = "website/"
-publish = "website/build/"
+base = "personal-website/"
+publish = "personal-website/build/"
 command = "next build"
