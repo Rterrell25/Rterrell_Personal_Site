@@ -1,0 +1,12 @@
+.flex{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-evenly;
+    border: solid red;
+    width: 300px;
+}
