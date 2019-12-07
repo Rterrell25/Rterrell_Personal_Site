@@ -1,56 +1,38 @@
-import React from 'react'
 import Link from 'next/link'
+import css from '../pages/style/index.css'
 
-const links = [
-  { href: 'https://zeit.co/now', label: 'ZEIT' },
-  { href: 'https://github.com/zeit/next.js', label: 'GitHub' },
-].map(link => {
-  link.key = `nav-link-${link.href}-${link.label}`
-  return link
-})
 
-const Nav = () => (
+const Nav = props => (
   <nav>
-    <ul>
-      <li>
-        <Link href="/">
-          <a>Home</a>
+    <div className={css.flex}>
+      <Link href="/">
+        <div>
+          <div>Robert Terrell</div>
+          <div>Full Stack Web Developer</div>
+        </div>
+      </Link>
+      <div className={css.navbar}>
+        <Link href="/about">
+          <a>About</a>
         </Link>
-      </li>
-      {links.map(({ key, href, label }) => (
-        <li key={key}>
-          <a href={href}>{label}</a>
-        </li>
-      ))}
-    </ul>
+        <Link>
+          <a>Portfolio</a>
+        </Link>
 
-    <style jsx>{`
-      :global(body) {
-        margin: 0;
-        font-family: -apple-system, BlinkMacSystemFont, Avenir Next, Avenir,
-          Helvetica, sans-serif;
-      }
-      nav {
-        text-align: center;
-      }
-      ul {
-        display: flex;
-        justify-content: space-between;
-      }
-      nav > ul {
-        padding: 4px 16px;
-      }
-      li {
-        display: flex;
-        padding: 6px 8px;
-      }
-      a {
-        color: #067df7;
-        text-decoration: none;
-        font-size: 13px;
-      }
-    `}</style>
+        <Link>
+          <a>Skills</a>
+        </Link>
+        <Link>
+          <a>Contact</a>
+        </Link>
+
+      </div>
+    </div>
+
   </nav>
 )
+
+
+
 
 export default Nav

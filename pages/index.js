@@ -1,11 +1,10 @@
-import Link from 'next/link'
+import Nav from '../components/nav'
+
 
 const Home = props => (
-    <div>
-        <Link href="/bio">
-            <a>Bio</a>
-        </Link>
-        <p>Home Page</p>
-    </div>
+  <div>
+    <Nav />
+  </div>
+
 )
 export default Home;
