@@ -80,6 +80,14 @@ body {
     50%{background-position:100% 50%}
     100%{background-position:0% 50%}
 }
+.wyncode_image {
+    height: 300px;
+    width: 300px;
+    border-radius: 150px;
+    margin-top: 50px;
+    
+   
+}
 
 @media only screen and (max-device-width: 375px) {
   .navbar_right {
@@ -101,6 +109,11 @@ body {
     height: 14px;
     
 }
+.wyncode_image {
+   height: 100px;
+    
+   
+}
 }
 @media only screen and (max-device-width: 414px) {
     .navbar_right {
@@ -118,9 +131,34 @@ body {
       background-size: auto 2px;
       background-repeat: repeat-x;
       text-decoration: none;
-      border: solid red;
       height: 14px;
       
   }
+  .wyncode_image {
+    height: 120px;
+    width: 120px;
+    border-radius: 60px;
+    
+   
+}
   }
 
+
+  .wyncode_image:hover {
+        filter: brightness(130%);
+        box-shadow: 0px 0px 150px 0px silver;
+        animation: dance 1s ease-in-out infinite alternate;
+  }
+  @keyframes dance {
+    0% { transform: rotateX(30deg) rotateY(-30deg) rotateZ(-10deg) scale(1.1); }
+    20% { transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(1.05); }
+    40% { transform: rotateX(-30deg) rotateY(30deg) rotateZ(10deg) scale(1.1); }
+    60% { transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(1.05); }
+    80% { transform: rotateX(30deg) rotateY(30deg) rotateZ(-10deg) scale(1.1); }
+  }
+ 
+
+  .wyncode_image_div {
+      display: flex;
+      justify-content: center;
+  }
