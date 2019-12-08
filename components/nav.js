@@ -3,17 +3,18 @@ import css from '../pages/style/index.css'
 
 
 const Nav = props => (
+
   <nav>
     <div className={css.flex}>
       <Link href="/">
-        <div>
-          <div>Robert Terrell</div>
-          <div>Full Stack Web Developer</div>
+        <div className={css.navbar_left}>
+          <div className={css.full_name}>Robert Terrell</div>
+          <div>Full-Stack Web Developer</div>
         </div>
       </Link>
-      <div className={css.navbar}>
+      <div className={css.navbar_right}>
         <Link href="/about">
-          <a>About</a>
+          <a className={css.about}>About</a>
         </Link>
         <Link>
           <a>Portfolio</a>

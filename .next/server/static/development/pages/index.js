@@ -117,95 +117,98 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 const Nav = props => __jsx("nav", {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 6
+    lineNumber: 7
   },
   __self: undefined
 }, __jsx("div", {
   className: _pages_style_index_css__WEBPACK_IMPORTED_MODULE_2___default.a.flex,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 7
+    lineNumber: 8
   },
   __self: undefined
 }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
   href: "/",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 8
-  },
-  __self: undefined
-}, __jsx("div", {
-  __source: {
-    fileName: _jsxFileName,
     lineNumber: 9
   },
   __self: undefined
 }, __jsx("div", {
+  className: _pages_style_index_css__WEBPACK_IMPORTED_MODULE_2___default.a.navbar_left,
   __source: {
     fileName: _jsxFileName,
     lineNumber: 10
   },
   __self: undefined
-}, "Robert Terrell"), __jsx("div", {
+}, __jsx("div", {
+  className: _pages_style_index_css__WEBPACK_IMPORTED_MODULE_2___default.a.full_name,
   __source: {
     fileName: _jsxFileName,
     lineNumber: 11
   },
   __self: undefined
-}, "Full Stack Web Developer"))), __jsx("div", {
-  className: _pages_style_index_css__WEBPACK_IMPORTED_MODULE_2___default.a.navbar,
+}, "Robert Terrell"), __jsx("div", {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 14
+    lineNumber: 12
+  },
+  __self: undefined
+}, "Full-Stack Web Developer"))), __jsx("div", {
+  className: _pages_style_index_css__WEBPACK_IMPORTED_MODULE_2___default.a.navbar_right,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 15
   },
   __self: undefined
 }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
   href: "/about",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 15
+    lineNumber: 16
   },
   __self: undefined
 }, __jsx("a", {
+  className: _pages_style_index_css__WEBPACK_IMPORTED_MODULE_2___default.a.about,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 16
+    lineNumber: 17
   },
   __self: undefined
 }, "About")), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 18
+    lineNumber: 19
   },
   __self: undefined
 }, __jsx("a", {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 19
+    lineNumber: 20
   },
   __self: undefined
 }, "Portfolio")), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 22
+    lineNumber: 23
   },
   __self: undefined
 }, __jsx("a", {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 23
+    lineNumber: 24
   },
   __self: undefined
 }, "Skills")), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 25
+    lineNumber: 26
   },
   __self: undefined
 }, __jsx("a", {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 26
+    lineNumber: 27
   },
   __self: undefined
 }, "Contact")))));
@@ -1993,7 +1996,11 @@ const Home = props => __jsx("div", {
 
 module.exports = {
 	"flex": "_3TwGHMoSYTWeVAYZ4L5yyY",
-	"navbar": "_1nVicYhy-wxnLmc3fIfNDQ"
+	"navbar_right": "_3qZc_K-BsB-Iwqu7AHjOeL",
+	"about": "_15eQOSx4jV8eeEBwDDGXCJ",
+	"navbar_left": "_1IPxLHav1smMuFszULvnwx",
+	"full_name": "_3W8PIKj5-O_6YmUI74ltRR",
+	"AnimationName": "_2SUW49EI0-z-bieko4adQl"
 };
 
 /***/ }),
