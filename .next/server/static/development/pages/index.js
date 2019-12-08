@@ -108,12 +108,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _pages_style_index_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../pages/style/index.css */ "./pages/style/index.css");
 /* harmony import */ var _pages_style_index_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_pages_style_index_css__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! next/head */ "next/head");
-/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_3__);
 var _jsxFileName = "/Users/robterrell/Desktop/personal-website/components/nav.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
-
 
 
 
@@ -123,94 +120,86 @@ const Nav = props => __jsx("nav", {
     lineNumber: 8
   },
   __self: undefined
-}, __jsx(next_head__WEBPACK_IMPORTED_MODULE_3___default.a, {
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 9
-  },
-  __self: undefined
-}, __jsx("title", {
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 10
-  },
-  __self: undefined
-}, "Robert Terrell"), __jsx("meta", {
-  name: "viewport",
-  content: "initial-scale=1.0, width=device-width",
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 11
-  },
-  __self: undefined
-})), __jsx("div", {
+}, __jsx("div", {
   className: _pages_style_index_css__WEBPACK_IMPORTED_MODULE_2___default.a.flex,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 13
+    lineNumber: 10
   },
   __self: undefined
 }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
   href: "/",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 14
+    lineNumber: 11
   },
   __self: undefined
 }, __jsx("div", {
   className: _pages_style_index_css__WEBPACK_IMPORTED_MODULE_2___default.a.navbar_left,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 15
+    lineNumber: 12
   },
   __self: undefined
 }, __jsx("div", {
   className: _pages_style_index_css__WEBPACK_IMPORTED_MODULE_2___default.a.full_name,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 16
+    lineNumber: 13
   },
   __self: undefined
 }, "Robert Terrell"), __jsx("div", {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 17
+    lineNumber: 14
   },
   __self: undefined
 }, "Full-Stack Web Developer"))), __jsx("div", {
   className: _pages_style_index_css__WEBPACK_IMPORTED_MODULE_2___default.a.navbar_right,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 20
+    lineNumber: 17
   },
   __self: undefined
 }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
   href: "/about",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 21
+    lineNumber: 18
   },
   __self: undefined
 }, __jsx("a", {
   className: _pages_style_index_css__WEBPACK_IMPORTED_MODULE_2___default.a.about,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 22
+    lineNumber: 19
   },
   __self: undefined
 }, "About")), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 24
+    lineNumber: 21
   },
   __self: undefined
 }, __jsx("a", {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 25
+    lineNumber: 22
   },
   __self: undefined
 }, "Portfolio")), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 25
+  },
+  __self: undefined
+}, __jsx("a", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 26
+  },
+  __self: undefined
+}, "Skills")), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
   __source: {
     fileName: _jsxFileName,
     lineNumber: 28
@@ -220,18 +209,6 @@ const Nav = props => __jsx("nav", {
   __source: {
     fileName: _jsxFileName,
     lineNumber: 29
-  },
-  __self: undefined
-}, "Skills")), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 31
-  },
-  __self: undefined
-}, __jsx("a", {
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 32
   },
   __self: undefined
 }, "Contact")))));
@@ -1987,21 +1964,39 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _components_nav__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/nav */ "./components/nav.js");
+/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/head */ "next/head");
+/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _style_index_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./style/index.css */ "./pages/style/index.css");
+/* harmony import */ var _style_index_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_style_index_css__WEBPACK_IMPORTED_MODULE_3__);
 var _jsxFileName = "/Users/robterrell/Desktop/personal-website/pages/index.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
+
+
 const Home = props => __jsx("div", {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 5
+    lineNumber: 7
   },
   __self: undefined
-}, __jsx(_components_nav__WEBPACK_IMPORTED_MODULE_1__["default"], {
+}, __jsx(next_head__WEBPACK_IMPORTED_MODULE_2___default.a, {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 6
+    lineNumber: 8
+  },
+  __self: undefined
+}, __jsx("title", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 9
+  },
+  __self: undefined
+}, "Robert Terrell")), __jsx(_components_nav__WEBPACK_IMPORTED_MODULE_1__["default"], {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 11
   },
   __self: undefined
 }));

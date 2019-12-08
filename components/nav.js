@@ -1,15 +1,12 @@
 import Link from 'next/link'
 import css from '../pages/style/index.css'
-import Head from 'next/head'
+
 
 
 const Nav = props => (
 
   <nav>
-    <Head>
-      <title>Robert Terrell</title>
-      <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-    </Head>
+
     <div className={css.flex}>
       <Link href="/">
         <div className={css.navbar_left}>
