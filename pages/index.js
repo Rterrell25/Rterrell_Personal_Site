@@ -31,13 +31,13 @@ const Home = props => (
       <br />
       <div className={css.image_grid}>
         <div>
-          <img src="../static/Oddjobs.jpg" className={css.oddjobs_image} />
+          <img src="" className={css.oddjobs_image} />
         </div>
         <div>
-          <img src="../static/barhop.jpg" className={css.oddjobs_image} />
+          <img src="" className={css.oddjobs_image} />
         </div>
         <div>
-          <img src="../static/todo.jpg" className={css.oddjobs_image} />
+          <img src="" className={css.oddjobs_image} />
         </div>
       </div>
     </div>
