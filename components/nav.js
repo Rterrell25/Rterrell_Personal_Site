@@ -1,12 +1,8 @@
-import Link from 'next/link'
-import css from '../pages/style/index.css'
-
-
+import Link from "next/link";
+import css from "../pages/style/index.css";
 
 const Nav = props => (
-
   <nav>
-
     <div className={css.flex}>
       <Link href="/">
         <div className={css.navbar_left}>
@@ -18,24 +14,19 @@ const Nav = props => (
         <Link href="/about">
           <a className={css.about}>About</a>
         </Link>
-        <Link>
-          <a>Portfolio</a>
+        <Link href="/portfolio">
+          <a className={css.portfolio}>Portfolio</a>
         </Link>
 
-        <Link>
-          <a>Skills</a>
+        <Link href="/skills">
+          <a className={css.skills}>Skills</a>
         </Link>
-        <Link>
-          <a>Contact</a>
+        <Link hrf="/contact">
+          <a className={css.contact}>Contact</a>
         </Link>
-
       </div>
     </div>
-
   </nav>
-)
+);
 
-
-
-
-export default Nav
+export default Nav;

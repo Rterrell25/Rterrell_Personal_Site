@@ -1,54 +1,66 @@
-@import url('https://fonts.googleapis.com/css?family=Public+Sans&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Public+Sans&display=swap");
 
-
-
-
-
-
-.flex{
-    display: flex;
-    justify-content: space-between;
-    padding: 15px;
-    font-family: 'Public Sans', sans-serif;;
+.flex {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  font-family: "Public Sans", sans-serif;
 }
 
 .navbar_right {
-    display: flex;
-    justify-content: space-evenly;
-    width: 300px;
-    height: 26px;
-    color: white;
-    font-size: 18px;
+  display: flex;
+  justify-content: space-evenly;
+  width: 300px;
+  height: 26px;
+  color: white;
+  font-size: 18px;
 }
-
 
 .about:hover {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift .3s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%23FFFFFF' stroke-width='2' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
-    background-position: 0 100%;
-    background-size: auto 6px;
-    background-repeat: repeat-x;
-    text-decoration: none;
-    
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift .3s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%23FFFFFF' stroke-width='2' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
+  background-position: 0 100%;
+  background-size: auto 6px;
+  background-repeat: repeat-x;
+  text-decoration: none;
+  cursor: pointer;
+}
+.portfolio:hover {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift .3s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%23FFFFFF' stroke-width='2' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
+  background-position: 0 100%;
+  background-size: auto 6px;
+  background-repeat: repeat-x;
+  text-decoration: none;
+  cursor: pointer;
+}
+.skills:hover {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift .3s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%23FFFFFF' stroke-width='2' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
+  background-position: 0 100%;
+  background-size: auto 6px;
+  background-repeat: repeat-x;
+  text-decoration: none;
+  cursor: pointer;
+}
+.contact:hover {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift .3s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%23FFFFFF' stroke-width='2' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
+  background-position: 0 100%;
+  background-size: auto 6px;
+  background-repeat: repeat-x;
+  text-decoration: none;
+  cursor: pointer;
 }
 
-
-
-    
-    
-
-
 .navbar_left {
-    cursor: pointer;
-    color: white;
+  cursor: pointer;
+  color: white;
 }
 
 a {
-    text-decoration: none;
-    color: inherit;
+  text-decoration: none;
+  color: inherit;
 }
 
 .full_name {
-    font-size: 25px;
+  font-size: 25px;
 }
 html,
 body {
@@ -56,48 +68,91 @@ body {
 }
 
 body {
-    background: linear-gradient(270deg, #1db6d9, #6b6ddf);
-    background-size: 400% 400%;
-    
-    -webkit-animation: AnimationName 21s ease infinite;
-    -moz-animation: AnimationName 21s ease infinite;
-    animation: AnimationName 21s ease infinite;
-}
+  background: linear-gradient(270deg, #1db6d9, #6b6ddf);
+  background-size: 400% 400%;
 
+  -webkit-animation: AnimationName 21s ease infinite;
+  -moz-animation: AnimationName 21s ease infinite;
+  animation: AnimationName 21s ease infinite;
+}
 
 @-webkit-keyframes AnimationName {
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
 @-moz-keyframes AnimationName {
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
 @keyframes AnimationName {
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
 .wyncode_image {
-    height: 300px;
-    width: 300px;
-    border-radius: 150px;
-    margin-top: 50px;
-    
-   
+  height: 300px;
+  width: 300px;
+  border-radius: 150px;
+  margin-top: 50px;
+}
+.flex_column {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.image_caption {
+  font-family: "Public Sans", sans-serif;
+  color: white;
+}
+
+.tag_line {
+  font-size: 30px;
+}
+.oddjobs_image {
+  height: 320px;
+  width: 520px;
+  border-radius: 5px;
+}
+
+.image_grid {
+  display: grid;
+  grid-template-columns: 500px 500px;
+  grid-template-rows: 350px 350px;
+  justify-content: center;
+  grid-gap: 50px;
+  margin-top: 170px;
 }
 
 @media only screen and (max-device-width: 375px) {
   .navbar_right {
-      font-size: 10px;
+    font-size: 10px;
   }
   .navbar_left {
-      font-size: 10px;
+    font-size: 10px;
   }
   .full_name {
-      font-size: 15px;
+    font-size: 15px;
   }
   .about:hover {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift .3s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%23FFFFFF' stroke-width='2' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
@@ -106,58 +161,151 @@ body {
     background-repeat: repeat-x;
     text-decoration: none;
     height: 14px;
-    
-}
-.wyncode_image {
-   height: 100px;
-    
-   
-}
+  }
+  .contact:hover {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift .3s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%23FFFFFF' stroke-width='2' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
+    background-position: 0 100%;
+    background-size: auto 2px;
+    background-repeat: repeat-x;
+    text-decoration: none;
+    height: 14px;
+  }
+  .portfolio:hover {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift .3s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%23FFFFFF' stroke-width='2' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
+    background-position: 0 100%;
+    background-size: auto 2px;
+    background-repeat: repeat-x;
+    text-decoration: none;
+    height: 14px;
+  }
+  .skills:hover {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift .3s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%23FFFFFF' stroke-width='2' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
+    background-position: 0 100%;
+    background-size: auto 2px;
+    background-repeat: repeat-x;
+    text-decoration: none;
+    height: 14px;
+  }
+
+  .wyncode_image {
+    height: 100px;
+  }
+  .tag_line {
+    font-size: 15px;
+  }
+
+  .image_label {
+    font-size: 10px;
+  }
+  .image_label_two {
+    font-size: 10px;
+  }
+  .oddjobs_image {
+    height: 100px;
+    width: 140px;
+    border-radius: 5px;
+  }
+
+  .image_grid {
+    display: grid;
+    grid-template-columns: 110px 110px;
+    grid-template-rows: 100px 110px;
+    justify-content: center;
+    grid-gap: 40px;
+    margin-top: 100px;
+  }
 }
 @media only screen and (max-device-width: 414px) {
-    .navbar_right {
-        font-size: 10px;
-    }
-    .navbar_left {
-        font-size: 10px;
-    }
-    .full_name {
-        font-size: 15px;
-    }
-    .about:hover {
-      background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift .3s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%23FFFFFF' stroke-width='2' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
-      background-position: 0 100%;
-      background-size: auto 2px;
-      background-repeat: repeat-x;
-      text-decoration: none;
-      height: 14px;
-      
+  .navbar_right {
+    font-size: 10px;
+  }
+  .navbar_left {
+    font-size: 10px;
+  }
+  .full_name {
+    font-size: 15px;
+  }
+  .about:hover {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift .3s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%23FFFFFF' stroke-width='2' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
+    background-position: 0 100%;
+    background-size: auto 2px;
+    background-repeat: repeat-x;
+    text-decoration: none;
+    height: 14px;
+  }
+  .contact:hover {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift .3s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%23FFFFFF' stroke-width='2' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
+    background-position: 0 100%;
+    background-size: auto 2px;
+    background-repeat: repeat-x;
+    text-decoration: none;
+    height: 14px;
+  }
+  .portfolio:hover {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift .3s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%23FFFFFF' stroke-width='2' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
+    background-position: 0 100%;
+    background-size: auto 2px;
+    background-repeat: repeat-x;
+    text-decoration: none;
+    height: 14px;
+  }
+  .skills:hover {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift .3s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%23FFFFFF' stroke-width='2' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
+    background-position: 0 100%;
+    background-size: auto 2px;
+    background-repeat: repeat-x;
+    text-decoration: none;
+    height: 14px;
   }
   .wyncode_image {
     height: 120px;
     width: 120px;
     border-radius: 60px;
-    
-   
+  }
+  .tag_line {
+    font-size: 15px;
+  }
+  .image_label {
+    font-size: 10px;
+  }
+  .image_label_two {
+    font-size: 10px;
+  }
+  .oddjobs_image {
+    height: 100px;
+    width: 140px;
+    border-radius: 5px;
+  }
+
+  .image_grid {
+    display: grid;
+    grid-template-columns: 110px 110px;
+    grid-template-rows: 100px 110px;
+    justify-content: center;
+    grid-gap: 40px;
+    margin-top: 100px;
+  }
 }
-  }
 
-
-  .wyncode_image:hover {
-        filter: brightness(130%);
-        box-shadow: 0px 0px 150px 0px silver;
-        animation: dance 1s ease-in-out infinite alternate;
+.wyncode_image:hover {
+  filter: brightness(130%);
+  box-shadow: 0px 0px 150px 0px silver;
+  animation: dance 1s ease-in-out infinite alternate;
+}
+@keyframes dance {
+  0% {
+    transform: rotateX(30deg) rotateY(-30deg) rotateZ(-10deg) scale(1.1);
   }
-  @keyframes dance {
-    0% { transform: rotateX(30deg) rotateY(-30deg) rotateZ(-10deg) scale(1.1); }
-    20% { transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(1.05); }
-    40% { transform: rotateX(-30deg) rotateY(30deg) rotateZ(10deg) scale(1.1); }
-    60% { transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(1.05); }
-    80% { transform: rotateX(30deg) rotateY(30deg) rotateZ(-10deg) scale(1.1); }
+  20% {
+    transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(1.05);
   }
- 
-
-  .wyncode_image_div {
-      display: flex;
-      justify-content: center;
+  40% {
+    transform: rotateX(-30deg) rotateY(30deg) rotateZ(10deg) scale(1.1);
   }
+  60% {
+    transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(1.05);
+  }
+  80% {
+    transform: rotateX(30deg) rotateY(30deg) rotateZ(-10deg) scale(1.1);
+  }
+}
