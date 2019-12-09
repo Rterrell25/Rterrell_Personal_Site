@@ -14,14 +14,14 @@ const Nav = props => (
         <Link href="/about">
           <a className={css.about}>About</a>
         </Link>
-        <Link href="/portfolio">
+        <Link href="/">
           <a className={css.portfolio}>Portfolio</a>
         </Link>
 
         <Link href="/skills">
           <a className={css.skills}>Skills</a>
         </Link>
-        <Link hrf="/contact">
+        <Link href="/contact">
           <a className={css.contact}>Contact</a>
         </Link>
       </div>
