@@ -27,27 +27,16 @@ const Home = props => (
           applications with clean, elegant, and efficient code.
         </div>
       </div>
-      <br />
-      <br />
-      <div className={css.image_grid}>
-        <div>
-          <img
-            src="https://i.imgur.com/Tojgmv8.png"
-            className={css.oddjobs_image}
-          />
-        </div>
-        <div>
-          <img
-            src="https://i.imgur.com/6JM2tUX.jpg"
-            className={css.oddjobs_image}
-          />
-        </div>
-        <div>
-          <img
-            src="https://i.imgur.com/muz1gcq.png"
-            className={css.oddjobs_image}
-          />
-        </div>
+    </div>
+    <br />
+    <br />
+    <div class={css.row}>
+      <div class={css.column}>
+        <img src="https://i.imgur.com/Tojgmv8.png" />
+        <img src="https://i.imgur.com/6JM2tUX.jpg" />
+      </div>
+      <div class={css.column}>
+        <img src="https://i.imgur.com/muz1gcq.png" />
       </div>
     </div>
   </div>

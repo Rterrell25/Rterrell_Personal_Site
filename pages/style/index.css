@@ -129,22 +129,40 @@ body {
 .tag_line {
   font-size: 30px;
 }
-.oddjobs_image {
-  height: 320px;
-  width: 520px;
-  border-radius: 5px;
-}
 
-.image_grid {
-  display: grid;
-  grid-template-columns: 500px 500px;
-  grid-template-rows: 350px 350px;
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
   justify-content: center;
-  grid-gap: 50px;
-  margin-top: 170px;
+  margin-top: 140px;
 }
-
+.column {
+  flex: 25%;
+  max-width: 40%;
+  padding: 0 4px;
+}
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
 @media only screen and (max-device-width: 375px) {
+  .row {
+    margin-top: 100px;
+  }
   .navbar_right {
     font-size: 10px;
   }
@@ -200,23 +218,12 @@ body {
   .image_label_two {
     font-size: 10px;
   }
-  .oddjobs_image {
-    height: 100px;
-    width: 140px;
-    border-radius: 5px;
-  }
-
-  .image_grid {
-    display: grid;
-    grid-template-columns: 110px 110px;
-    grid-template-rows: 100px 110px;
-    justify-content: center;
-    grid-gap: 40px;
-    margin-top: 100px;
-    margin-right: 30px;
-  }
 }
 @media only screen and (max-device-width: 414px) {
+  .row {
+    margin-top: 100px;
+  }
+
   .navbar_right {
     font-size: 10px;
   }
@@ -271,21 +278,6 @@ body {
   }
   .image_label_two {
     font-size: 10px;
-  }
-  .oddjobs_image {
-    height: 100px;
-    width: 140px;
-    border-radius: 5px;
-  }
-
-  .image_grid {
-    display: grid;
-    grid-template-columns: 110px 110px;
-    grid-template-rows: 100px 110px;
-    justify-content: center;
-    grid-gap: 40px;
-    margin-top: 100px;
-    margin-right: 30px;
   }
 }
 
