@@ -85,7 +85,6 @@ const Home = props => (
           </Link>
         </div>
       </div>
-      <br />
     </div>
     <br />
   </div>
