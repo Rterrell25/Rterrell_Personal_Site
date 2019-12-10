@@ -49,7 +49,6 @@ const Home = props => (
           </Link>
         </div>
       </div>
-      <br />
 
       <div className={css.column}>
         <div>
