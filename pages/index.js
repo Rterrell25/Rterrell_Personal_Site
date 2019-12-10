@@ -1,6 +1,7 @@
 import Nav from "../components/nav";
 import Head from "next/head";
 import css from "./style/index.css";
+import Link from "next/link";
 
 const Home = props => (
   <div>
@@ -20,25 +21,74 @@ const Home = props => (
         <div className={css.tag_line}>Not Your Average Web Developer</div>
         <br />
         <div className={css.image_label}>
-          I've developed a passion for creating highly interactive web
+          "I've developed a passion for creating highly interactive web
         </div>
         <div className={css.image_label_two}>
           {" "}
-          applications with clean, elegant, and efficient code.
+          applications with clean, elegant, and efficient code."
         </div>
       </div>
     </div>
     <br />
     <br />
-    <div class={css.row}>
-      <div class={css.column}>
-        <img src="https://i.imgur.com/Tojgmv8.png" />
-        <img src="https://i.imgur.com/6JM2tUX.jpg" />
+    <div className={css.row}>
+      <div className={css.column}>
+        <div>
+          <Link href="/oddjobs">
+            <div className={css.hovereffect}>
+              <img
+                className={css.imgresponsive}
+                src="https://i.imgur.com/Tojgmv8.png"
+                alt=""
+              />
+
+              <div className={css.overlay}>
+                <h2>Click For Details</h2>
+              </div>
+            </div>
+          </Link>
+        </div>
       </div>
-      <div class={css.column}>
-        <img src="https://i.imgur.com/muz1gcq.png" />
+      <br />
+
+      <div className={css.column}>
+        <div>
+          <Link href="/barhop">
+            <div className={css.hovereffect}>
+              <img
+                className={css.imgresponsive}
+                src="https://i.imgur.com/j8GO18n.jpg"
+                alt=""
+              />
+
+              <div className={css.overlay}>
+                <h2>Click For Details</h2>
+              </div>
+            </div>
+          </Link>
+        </div>
       </div>
+
+      <div className={css.column}>
+        <div>
+          <Link href="/todo">
+            <div className={css.hovereffect}>
+              <img
+                className={css.imgresponsive}
+                src="https://i.imgur.com/muz1gcq.png"
+                alt=""
+              />
+
+              <div className={css.overlay}>
+                <h2>Click For Details</h2>
+              </div>
+            </div>
+          </Link>
+        </div>
+      </div>
+      <br />
     </div>
+    <br />
   </div>
 );
 export default Home;
