@@ -9,6 +9,14 @@ const Home = props => (
       <title>Robert Terrell</title>
     </Head>
     <Nav />
+
+    <div class={css.container}>
+      <img src="https://i.imgur.com/NTyoCNM.jpg" className={css.top} />
+      <div class={css.textblock}>
+        <div className={css.topblock}>I'm Robert Terrell</div>
+        <div className={css.bottomblock}>A Full Stack Web Developer</div>
+      </div>
+    </div>
     <div className={css.flex_column}>
       <div className={css.wyncode_image_div}>
         <img
@@ -26,6 +34,9 @@ const Home = props => (
         <div className={css.image_label_two}>
           {" "}
           applications with clean, elegant, and efficient code."
+        </div>
+        <div>
+          <img src="" />
         </div>
       </div>
     </div>
@@ -87,6 +98,9 @@ const Home = props => (
       </div>
     </div>
     <br />
+    <div className={css.footer}>
+      <p>This is the footer</p>
+    </div>
   </div>
 );
 export default Home;
