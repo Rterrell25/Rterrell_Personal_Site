@@ -12,7 +12,7 @@ const Home = props => (
 
     <div class={css.container}>
       <img src="https://i.imgur.com/NTyoCNM.jpg" className={css.top} />
-      <div class={css.textblock}>
+      <div className={css.textblock}>
         <div className={css.topblock}>I'm Robert Terrell</div>
         <div className={css.bottomblock}>A Full Stack Web Developer</div>
       </div>
