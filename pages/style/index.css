@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Public+Sans&display=swap");
-@import url("//fonts.googleapis.com/css?family=Cookie");
+@import url("https://fonts.googleapis.com/css?family=Cookie&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -33,7 +33,7 @@ nav {
   text-align: center;
   top: 10%; /* Adjust this value to move the positioned div up and down */
 
-  font-family: "Cookie", Helvetica, sans-serif;
+  font-family: "Cookie", cursive;
   color: #fff;
   width: 60%; /* Set the width of the positioned div */
 }
