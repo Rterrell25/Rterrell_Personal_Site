@@ -3,7 +3,7 @@ import Nav from "../components/nav";
 const Barhop = props => (
   <div>
     <Nav />
-    <p>Barhop</p>
+    <p>Barh</p>
   </div>
 );
 
