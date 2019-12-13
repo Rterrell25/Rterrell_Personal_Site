@@ -1,0 +1,45 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.about_body {
+  background-color: #791829;
+}
+.about_image {
+  width: 100%;
+  flex: 25%;
+}
+.head {
+  background-color: #6f232d;
+}
+.textblock {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+
+  font-weight: bold;
+  color: white;
+  text-shadow: 2px 2px black;
+  font-size: 50px;
+  flex: 25%;
+}
+.container {
+  position: relative;
+  display: inline-block; /* Make the width of box same as image */
+}
+.container .textblock {
+  position: absolute;
+  z-index: 999;
+  margin: 0 auto;
+  left: 30%;
+  right: 0;
+  text-align: center;
+  top: 10%; /* Adjust this value to move the positioned div up and down */
+
+  font-family: "Cookie", cursive;
+  color: #fff;
+  width: 60%; /* Set the width of the positioned div */
+}
+.developerpara {
+  margin-top: 5%;
+}
