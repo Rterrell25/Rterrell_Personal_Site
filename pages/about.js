@@ -1,5 +1,5 @@
 import Nav from "../components/nav";
-import css from "./style/styles.css";
+import css from "./style/index.css";
 
 const About = props => (
   <div className={css.about_body}>
