@@ -1,4 +1,16 @@
-<div className={css.row}>
+import Nav from "../components/nav";
+
+const Portfolio = props => (
+  <div>
+    <Nav />
+    <p>ODDJOBS</p>
+  </div>
+);
+
+export default Portfolio;
+
+{
+  /* <div className={css.row}>
   <div className={css.column}>
     <div>
       <Link href="/oddjobs">
@@ -52,4 +64,5 @@
       </Link>
     </div>
   </div>
-</div>;
+</div>; */
+}
