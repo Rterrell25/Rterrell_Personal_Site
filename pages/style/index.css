@@ -356,13 +356,18 @@ body {
   color: #fff;
   width: 60%; /* Set the width of the positioned div */
 }
-
+.portfolio_head {
+  background-color: #537982;
+}
+.portfolio_body {
+  background-color: #6f9fa9;
+}
 @media (max-width: 991px) {
   .developerpara {
     font-size: 10px;
   }
   .footer {
-    height: 150px;
+    height: 130px;
     width: 100%;
     margin-bottom: -4px;
   }
@@ -407,7 +412,7 @@ body {
     width: 250px;
   }
   .footer {
-    height: 150px;
+    height: 130px;
     width: 100%;
     margin-bottom: -4px;
   }
@@ -455,7 +460,7 @@ body {
     width: 250px;
   }
   .footer {
-    height: 150px;
+    height: 130px;
     width: 100%;
     margin-bottom: -4px;
   }
@@ -515,7 +520,7 @@ body {
     width: 250px;
   }
   .footer {
-    height: 150px;
+    height: 130px;
     width: 100%;
     margin-bottom: -4px;
   }
@@ -575,7 +580,7 @@ body {
     width: 250px;
   }
   .footer {
-    height: 150px;
+    height: 130px;
     width: 100%;
     margin-bottom: -4px;
   }
@@ -614,7 +619,7 @@ body {
     width: 250px;
   }
   .footer {
-    height: 150px;
+    height: 130px;
     width: 100%;
     margin-bottom: -4px;
   }
@@ -718,7 +723,7 @@ body {
     width: 250px;
   }
   .footer {
-    height: 150px;
+    height: 130px;
     width: 100%;
     margin-bottom: -4px;
   }

@@ -14,7 +14,7 @@ const Nav = props => (
         <Link href="/about">
           <a className={css.about}>About</a>
         </Link>
-        <Link href="/">
+        <Link href="portfolio">
           <a className={css.portfolio}>Portfolio</a>
         </Link>
 
