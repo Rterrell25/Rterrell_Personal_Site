@@ -40,23 +40,27 @@ const Home = props => (
         </div>
       </div>
     </div>
-    <br />
-    <br />
+
     <div>
       <img src="https://i.imgur.com/8LuqUzQ.png" className={css.pose} />
     </div>
     <div className={css.developertag}>What I can do.</div>
     <br />
-
     <div className={css.aboutMeTwo}>
       <div className={css.aboutMeTwoP}>
         <div className={css.developerpara}>
-          <p className={css.p2}>
+          <div className={css.p2}>
             Front End Development: building out the visual components of a
             website using HTML5, CSS3, Javascript, and React.js. I build fast,
             interactive websites. Feel free to take a look at my latest projects
             on the portfolio page.
-          </p>
+          </div>
+          <br />
+          <div>
+            Backend Development: technologies that I have worked in are Ruby on
+            Rails with a PostgreSQL database, expressJS with a mongodb database,
+            and Apollo with Prisma and a MySQL database.
+          </div>
         </div>
       </div>
     </div>
