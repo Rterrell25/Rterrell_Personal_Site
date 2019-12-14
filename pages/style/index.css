@@ -279,7 +279,7 @@ body {
   justify-content: center;
   font-family: "Cookie", cursive;
   font-size: 30px;
-  margin-top: 8%;
+
   color: white;
   text-shadow: 2px 2px black;
 }
@@ -296,10 +296,7 @@ body {
   font-size: 30px;
   text-align: center;
 }
-.coffee {
-  height: 300px;
-  width: 300px;
-}
+
 .aboutMeTwoP {
   width: 60%;
 }
@@ -359,9 +356,6 @@ body {
   color: #fff;
   width: 60%; /* Set the width of the positioned div */
 }
-.developerpara {
-  margin-top: 5%;
-}
 
 @media (max-width: 991px) {
   .developerpara {
@@ -378,8 +372,8 @@ body {
     margin-right: auto;
     margin-left: auto;
     flex: 25%;
-    height: 280px;
-    width: 280px;
+    height: 250px;
+    width: 250px;
   }
 
   .textblock {
@@ -409,8 +403,8 @@ body {
     margin-right: auto;
     margin-left: auto;
     flex: 25%;
-    height: 280px;
-    width: 280px;
+    height: 250px;
+    width: 250px;
   }
   .footer {
     height: 150px;
@@ -442,10 +436,7 @@ body {
     text-shadow: 2px 2px black;
     font-size: 15px;
   }
-  .coffee {
-    height: 200px;
-    width: 200px;
-  }
+
   .aboutMe {
     display: flex;
     justify-content: center;
@@ -460,8 +451,8 @@ body {
     margin-right: auto;
     margin-left: auto;
     flex: 25%;
-    height: 280px;
-    width: 280px;
+    height: 250px;
+    width: 250px;
   }
   .footer {
     height: 150px;
@@ -520,8 +511,8 @@ body {
     margin-right: auto;
     margin-left: auto;
     flex: 25%;
-    height: 280px;
-    width: 280px;
+    height: 250px;
+    width: 250px;
   }
   .footer {
     height: 150px;
@@ -580,8 +571,8 @@ body {
     margin-right: auto;
     margin-left: auto;
     flex: 25%;
-    height: 280px;
-    width: 280px;
+    height: 250px;
+    width: 250px;
   }
   .footer {
     height: 150px;
@@ -619,8 +610,8 @@ body {
     margin-right: auto;
     margin-left: auto;
     flex: 25%;
-    height: 280px;
-    width: 280px;
+    height: 250px;
+    width: 250px;
   }
   .footer {
     height: 150px;
@@ -723,8 +714,8 @@ body {
     margin-right: auto;
     margin-left: auto;
     flex: 25%;
-    height: 280px;
-    width: 280px;
+    height: 250px;
+    width: 250px;
   }
   .footer {
     height: 150px;
