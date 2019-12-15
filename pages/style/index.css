@@ -301,9 +301,10 @@ body {
   width: 60%;
 }
 .footer {
-  height: 380px;
+  height: 120px;
   width: 100%;
   margin-bottom: -4px;
+  margin-top: 8%;
 }
 .pose {
   display: block;
@@ -362,6 +363,29 @@ body {
 .portfolio_body {
   background-color: #6f9fa9;
 }
+.oddjobs_image {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  flex: 25%;
+}
+.oddjob_head {
+  background-color: #2f2e97;
+}
+.oddjobs_body {
+  background-color: #2f2e97;
+}
+
+.icon_container {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 1%;
+}
+.barhop_body {
+  background-color: #005750;
+}
+
 @media (max-width: 991px) {
   .developerpara {
     font-size: 10px;

@@ -16,11 +16,11 @@ const About = props => (
       <img src="https://i.imgur.com/6PN1sUf.png" className={css.pose} />
     </div>
     <div className={css.developertag}>My journey as a developer.</div>
-    <br />
     <div className={css.aboutMeTwo}>
       <div className={css.aboutMeTwoP}>
         <div className={css.developerpara}>
-          <p className={css.p2}>
+          <br />
+          <div className={css.p2}>
             I am originally from Indianapolis, Indiana. After graduating from
             Indiana University, I found work at a small/large business loan
             vendor in Coral Springs, FL. While I enjoyed my time working as a
@@ -30,13 +30,13 @@ const About = props => (
             Academy. The rest is history. Web development has changed my life. I
             can't go a day without coding and I love learning something new
             every single day.
-          </p>
+          </div>
         </div>
       </div>
     </div>
     <br />
     <div>
-      <img src="https://i.imgur.com/nikhRyY.png" className={css.footer} />
+      <img src="" className={css.footer} />
     </div>
   </div>
 );
