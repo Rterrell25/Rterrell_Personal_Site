@@ -6,6 +6,12 @@ const Oddjobs = props => (
     <div className={css.oddjob_head}>
       <Nav />
     </div>
+    <div className={css.container}>
+      <img src="https://i.imgur.com/ilrus4S.jpg" className={css.top} />
+      <div className={css.textblock}>
+        <div className={css.topblock}>Oddjobs</div>
+      </div>
+    </div>
     <div className={css.oddjobs_image_div}>
       <img
         src="https://i.imgur.com/Tojgmv8.png"
@@ -13,12 +19,12 @@ const Oddjobs = props => (
       />
     </div>
     <br />
-    <div className={css.developertag}>Oddjobs</div>
+    <div className={css.oddjobdevelopertag}>Oddjobs</div>
     <br />
     <div className={css.aboutMeTwo}>
       <div className={css.aboutMeTwoP}>
-        <div className={css.developerpara}>
-          <div className={css.p2}>
+        <div className={css.oddjobdeveloperpara}>
+          <div className={css.oddjobp2}>
             {" "}
             Looking for a contractor in the Miami area? My team and I built this
             site in order to pair consumers with reliable contractors. While
@@ -29,10 +35,10 @@ const Oddjobs = props => (
           </div>
           <br />
           <div className={css.icon_container}>
-            <div className={css.developertag}>
+            <div className={css.oddjobdevelopertag}>
               Click here to view Github repo
             </div>
-            <div className={css.developertag}>
+            <div className={css.oddjobdevelopertag}>
               Click here to view site on Heroku
             </div>
           </div>
@@ -41,7 +47,7 @@ const Oddjobs = props => (
     </div>
     <br />
     <div>
-      <img src="" className={css.footer} />
+      <img src="https://i.imgur.com/tl5nB1q.png" className={css.footer} />
     </div>
   </div>
 );
