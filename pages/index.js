@@ -66,7 +66,7 @@ const Home = props => (
     </div>
     <br />
     <div>
-      <img src="" className={css.footer} />
+      <img src="https://i.imgur.com/tl5nB1q.png" className={css.footer} />
     </div>
   </div>
 );

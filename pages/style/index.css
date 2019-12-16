@@ -129,39 +129,6 @@ body {
   animation: AnimationName 21s ease infinite;
 }
 
-@-webkit-keyframes AnimationName {
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
-}
-@-moz-keyframes AnimationName {
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
-}
-@keyframes AnimationName {
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
-}
 .wyncode_image {
   height: 220px;
   width: 220px;
@@ -301,7 +268,7 @@ body {
   width: 60%;
 }
 .footer {
-  height: 120px;
+  height: 300px;
   width: 100%;
   margin-bottom: -4px;
   margin-top: 8%;
@@ -371,10 +338,10 @@ body {
   flex: 25%;
 }
 .oddjob_head {
-  background-color: #2f2e97;
+  background-color: #efbcc3;
 }
 .oddjobs_body {
-  background-color: #2f2e97;
+  background-color: #fffce9;
 }
 
 .icon_container {
@@ -382,11 +349,40 @@ body {
   justify-content: space-evenly;
   padding: 1%;
 }
+
+.oddjobdevelopertag {
+  font-family: "Cookie", cursive;
+  color: black;
+  text-shadow: 2px 2px white;
+  font-size: 30px;
+  text-align: center;
+}
+.oddjobdeveloperpara {
+  color: black;
+}
+.oddjobs_image_div {
+  flex: 20%;
+  border-radius: 5px;
+  margin-top: 2%;
+}
+.barhop_head {
+  background-color: #08222c;
+}
 .barhop_body {
-  background-color: #005750;
+  background-color: #b45b36;
 }
 
 @media (max-width: 991px) {
+  .oddjobdevelopertag {
+    font-family: "Cookie", cursive;
+    color: black;
+    text-shadow: 2px 2px white;
+    font-size: 12px;
+    text-align: center;
+  }
+  .oddjobp2 {
+    font-size: 10px;
+  }
   .developerpara {
     font-size: 10px;
   }
@@ -426,6 +422,16 @@ body {
 }
 
 @media (max-width: 767px) {
+  .oddjobdevelopertag {
+    font-family: "Cookie", cursive;
+    color: black;
+    text-shadow: 2px 2px white;
+    font-size: 12px;
+    text-align: center;
+  }
+  .oddjobp2 {
+    font-size: 10px;
+  }
   .pose {
     display: block;
     align-items: center;
@@ -474,6 +480,16 @@ body {
   }
 }
 @media screen and (max-width: 800px) {
+  .oddjobdevelopertag {
+    font-family: "Cookie", cursive;
+    color: black;
+    text-shadow: 2px 2px white;
+    font-size: 12px;
+    text-align: center;
+  }
+  .oddjobp2 {
+    font-size: 10px;
+  }
   .pose {
     display: block;
     align-items: center;
@@ -534,6 +550,13 @@ body {
   }
 }
 @media screen and (max-width: 600px) {
+  .oddjobdevelopertag {
+    font-family: "Cookie", cursive;
+    color: black;
+    text-shadow: 2px 2px white;
+    font-size: 12px;
+    text-align: center;
+  }
   .pose {
     display: block;
     align-items: center;
@@ -594,6 +617,16 @@ body {
   }
 }
 @media screen and (max-width: 570px) {
+  .oddjobdevelopertag {
+    font-family: "Cookie", cursive;
+    color: black;
+    text-shadow: 2px 2px white;
+    font-size: 12px;
+    text-align: center;
+  }
+  .oddjobp2 {
+    font-size: 10px;
+  }
   .pose {
     display: block;
     align-items: center;
@@ -633,6 +666,16 @@ body {
   }
 }
 @media only screen and (max-device-width: 375px) {
+  .oddjobdevelopertag {
+    font-family: "Cookie", cursive;
+    color: black;
+    text-shadow: 2px 2px white;
+    font-size: 12px;
+    text-align: center;
+  }
+  .oddjobp2 {
+    font-size: 10px;
+  }
   .pose {
     display: block;
     align-items: center;
@@ -737,6 +780,16 @@ body {
   }
 }
 @media only screen and (max-device-width: 414px) {
+  .oddjobdevelopertag {
+    font-family: "Cookie", cursive;
+    color: black;
+    text-shadow: 2px 2px white;
+    font-size: 12px;
+    text-align: center;
+  }
+  .oddjobp2 {
+    font-size: 10px;
+  }
   .pose {
     display: block;
     align-items: center;
