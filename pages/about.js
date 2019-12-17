@@ -7,7 +7,7 @@ const About = props => (
       <Nav />
     </div>
     <div className={css.container}>
-      <img src="https://i.imgur.com/nN2L4a2.jpg" className={css.about_image} />
+      <img src="https://i.imgur.com/Dc8Mmp5.jpg" className={css.about_image} />
       <div className={css.textblock}>
         <div className={css.topblock}>About Me</div>
       </div>

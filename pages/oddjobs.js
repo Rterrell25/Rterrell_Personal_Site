@@ -7,7 +7,7 @@ const Oddjobs = props => (
       <Nav />
     </div>
     <div className={css.container}>
-      <img src="https://i.imgur.com/ilrus4S.jpg" className={css.top} />
+      <img src="https://i.imgur.com/GOjpbaR.jpg" className={css.top} />
       <div className={css.textblock}>
         <div className={css.topblock}>Oddjobs</div>
       </div>
