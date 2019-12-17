@@ -11,13 +11,21 @@ const Home = props => (
       <Nav />
     </div>
     <div className={css.container}>
-      <img src="https://i.imgur.com/Ih4R4t8.jpg" className={css.top} />
+      <img
+        src="https://i.imgur.com/Ih4R4t8.jpg"
+        className={css.top}
+        alt="top_city"
+      />
       <div className={css.textblock}>
         <div className={css.topblock}>I'm Robert Terrell</div>
         <div className={css.bottomblock}>A Full Stack Web Developer</div>
       </div>
       <div>
-        <img src="https://i.imgur.com/UxzRIrg.jpg" className={css.topOne} />
+        <img
+          src="https://i.imgur.com/UxzRIrg.jpg"
+          className={css.topOne}
+          alt="bottom_city"
+        />
       </div>
     </div>
     <div className={css.flex_column}>
@@ -25,6 +33,7 @@ const Home = props => (
         <img
           src="https://i.imgur.com/N0cUlg7.png"
           className={css.wyncode_image}
+          alt="memoji"
         ></img>
       </div>
       <br />
@@ -42,7 +51,11 @@ const Home = props => (
     </div>
 
     <div>
-      <img src="https://i.imgur.com/8LuqUzQ.png" className={css.pose} />
+      <img
+        src="https://i.imgur.com/8LuqUzQ.png"
+        className={css.pose}
+        alt="pose"
+      />
     </div>
     <div className={css.developertag}>What I can do.</div>
     <br />
@@ -66,7 +79,11 @@ const Home = props => (
     </div>
     <br />
     <div>
-      <img src="https://i.imgur.com/tl5nB1q.png" className={css.footer} />
+      <img
+        src="https://i.imgur.com/tl5nB1q.png"
+        className={css.footer}
+        alt="footer"
+      />
     </div>
   </div>
 );
