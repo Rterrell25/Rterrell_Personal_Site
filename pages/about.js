@@ -7,13 +7,21 @@ const About = props => (
       <Nav />
     </div>
     <div className={css.container}>
-      <img src="https://i.imgur.com/Dc8Mmp5.jpg" className={css.about_image} />
+      <img
+        src="https://i.imgur.com/Dc8Mmp5.jpg"
+        className={css.about_image}
+        alt="about"
+      />
       <div className={css.textblock}>
         <div className={css.topblock}>About Me</div>
       </div>
     </div>
     <div>
-      <img src="https://i.imgur.com/6PN1sUf.png" className={css.pose} />
+      <img
+        src="https://i.imgur.com/6PN1sUf.png"
+        className={css.pose}
+        alt="pose"
+      />
     </div>
     <div className={css.developertag}>My journey as a developer.</div>
     <div className={css.aboutMeTwo}>
@@ -36,7 +44,11 @@ const About = props => (
     </div>
     <br />
     <div>
-      <img src="https://i.imgur.com/tl5nB1q.png" className={css.footer} />
+      <img
+        src="https://i.imgur.com/tl5nB1q.png"
+        className={css.footer}
+        alt="footer"
+      />
     </div>
   </div>
 );

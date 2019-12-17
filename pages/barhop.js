@@ -7,7 +7,11 @@ const Barhop = props => (
       <Nav />
     </div>
     <div className={css.container}>
-      <img src="https://i.imgur.com/ctB80At.jpg" className={css.top} />
+      <img
+        src="https://i.imgur.com/ctB80At.jpg"
+        className={css.top}
+        alt="oddjobs_image"
+      />
       <div className={css.textblock}>
         <div className={css.topblock}>BarHop</div>
       </div>
@@ -17,6 +21,7 @@ const Barhop = props => (
       <img
         src="https://i.imgur.com/j8GO18n.jpg"
         className={css.oddjobs_image}
+        alt="oddjobs"
       />
     </div>
     <br />
@@ -48,7 +53,11 @@ const Barhop = props => (
     </div>
     <br />
     <div>
-      <img src="https://i.imgur.com/tl5nB1q.png" className={css.footer} />
+      <img
+        src="https://i.imgur.com/tl5nB1q.png"
+        className={css.footer}
+        alt="footer"
+      />
     </div>
   </div>
 );

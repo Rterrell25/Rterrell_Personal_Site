@@ -7,7 +7,11 @@ const Oddjobs = props => (
       <Nav />
     </div>
     <div className={css.container}>
-      <img src="https://i.imgur.com/GOjpbaR.jpg" className={css.top} />
+      <img
+        src="https://i.imgur.com/GOjpbaR.jpg"
+        className={css.top}
+        alt="oddjobs"
+      />
       <div className={css.textblock}>
         <div className={css.topblock}>Oddjobs</div>
       </div>
@@ -16,6 +20,7 @@ const Oddjobs = props => (
       <img
         src="https://i.imgur.com/Tojgmv8.png"
         className={css.oddjobs_image}
+        alt="oddjobs_image"
       />
     </div>
     <br />
@@ -47,7 +52,11 @@ const Oddjobs = props => (
     </div>
     <br />
     <div>
-      <img src="https://i.imgur.com/tl5nB1q.png" className={css.footer} />
+      <img
+        src="https://i.imgur.com/tl5nB1q.png"
+        className={css.footer}
+        alt="footer"
+      />
     </div>
   </div>
 );

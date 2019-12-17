@@ -8,14 +8,22 @@ const Portfolio = props => (
       <Nav />
     </div>
     <div className={css.container}>
-      <img src="https://i.imgur.com/LxB07lP.jpg" className={css.about_image} />
+      <img
+        src="https://i.imgur.com/LxB07lP.jpg"
+        className={css.about_image}
+        alt="plumber"
+      />
       <div className={css.textblock}>
         <div className={css.topblock}>My Portfolio</div>
       </div>
     </div>
 
     <div>
-      <img src="https://i.imgur.com/elCLQtX.png" className={css.pose} />
+      <img
+        src="https://i.imgur.com/elCLQtX.png"
+        className={css.pose}
+        alt="pose"
+      />
     </div>
     <div className={css.row}>
       <div className={css.column}>
@@ -23,7 +31,7 @@ const Portfolio = props => (
           <img
             className={css.imgresponsive}
             src="https://i.imgur.com/Tojgmv8.png"
-            alt=""
+            alt="Oddjobs"
           />
 
           <br />
@@ -39,7 +47,7 @@ const Portfolio = props => (
           <img
             className={css.imgresponsive}
             src="https://i.imgur.com/j8GO18n.jpg"
-            alt=""
+            alt="Barhop"
           />
 
           <br />
@@ -54,7 +62,11 @@ const Portfolio = props => (
     <br />
 
     <div>
-      <img src="https://i.imgur.com/tl5nB1q.png" className={css.footer} />
+      <img
+        src="https://i.imgur.com/tl5nB1q.png"
+        className={css.footer}
+        alt="footer"
+      />
     </div>
   </div>
 );
