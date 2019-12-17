@@ -18,9 +18,13 @@ const Nav = props => (
           <a className={css.portfolio}>Portfolio</a>
         </Link>
 
-        <Link href="/resume">
-          <a className={css.skills}>Resume</a>
-        </Link>
+        <a
+          href="https://docs.google.com/document/d/1AWbR3JS3uA0MDuuRsILJWJMgCVEeslff/export?format=pdf"
+          className={css.skills}
+        >
+          Resume
+        </a>
+
         <Link href="/contact">
           <a className={css.contact}>Contact</a>
         </Link>

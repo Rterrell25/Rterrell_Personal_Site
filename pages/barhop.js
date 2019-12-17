@@ -7,7 +7,7 @@ const Barhop = props => (
       <Nav />
     </div>
     <div className={css.container}>
-      <img src="https://i.imgur.com/jJAAi0g.jpg" className={css.top} />
+      <img src="https://i.imgur.com/ctB80At.jpg" className={css.top} />
       <div className={css.textblock}>
         <div className={css.topblock}>BarHop</div>
       </div>

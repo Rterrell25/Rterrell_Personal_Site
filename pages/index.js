@@ -11,13 +11,13 @@ const Home = props => (
       <Nav />
     </div>
     <div className={css.container}>
-      <img src="https://i.imgur.com/NTyoCNM.jpg" className={css.top} />
+      <img src="https://i.imgur.com/Ih4R4t8.jpg" className={css.top} />
       <div className={css.textblock}>
         <div className={css.topblock}>I'm Robert Terrell</div>
         <div className={css.bottomblock}>A Full Stack Web Developer</div>
       </div>
       <div>
-        <img src="https://i.imgur.com/z9UziNk.jpg" className={css.topOne} />
+        <img src="https://i.imgur.com/UxzRIrg.jpg" className={css.topOne} />
       </div>
     </div>
     <div className={css.flex_column}>
