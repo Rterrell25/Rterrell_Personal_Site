@@ -75,11 +75,7 @@ const Portfolio = props => {
       <br />
 
       <div>
-        <img
-          src="https://i.imgur.com/tl5nB1q.png"
-          className={css.footer}
-          alt="footer"
-        />
+        <div className={css.footer}>Hey</div>
       </div>
     </div>
   );

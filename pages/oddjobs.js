@@ -30,7 +30,7 @@ const Oddjobs = props => (
     </div>
     <br />
     <div className={css.oddjobdevelopertag}>Oddjobs</div>
-    <br />
+
     <div className={css.aboutMeTwo}>
       <div className={css.aboutMeTwoP}>
         <div className={css.oddjobdeveloperpara}>
@@ -44,24 +44,43 @@ const Oddjobs = props => (
             Integration and Google Maps API.{" "}
           </div>
           <br />
+
           <div className={css.icon_container}>
-            <div className={css.oddjobdevelopertag}>
-              Click here to view Github repo
+            <div className={css.button_cont}>
+              <a
+                className={css.example_e}
+                href="add-website-here"
+                target="_blank"
+                rel="nofollow noopener"
+              >
+                GitHub
+              </a>
             </div>
-            <div className={css.oddjobdevelopertag}>
-              Click here to view site on Heroku
+            <div className={css.button_cont}>
+              <a
+                className={css.example_e}
+                href="add-website-here"
+                target="_blank"
+                rel="nofollow noopener"
+              >
+                Heroku
+              </a>
             </div>
           </div>
         </div>
       </div>
     </div>
     <br />
-    <div>
+    <div className={css.oddjob_pose}>
       <img
-        src="https://i.imgur.com/tl5nB1q.png"
-        className={css.footer}
-        alt="footer"
+        src="https://i.imgur.com/gf5DGs3.png"
+        className={css.pose}
+        id="pose"
+        alt="pose"
       />
+    </div>
+    <div>
+      <div className={css.footer}>Hey</div>
     </div>
   </div>
 );

@@ -25,13 +25,13 @@ const Barhop = props => (
     <div className={css.oddjobs_image_div} id="barhop_image">
       <img
         src="https://i.imgur.com/j8GO18n.jpg"
-        className={css.oddjobs_image}
+        className={css.barhop_image}
         alt="oddjobs"
       />
     </div>
     <br />
     <div className={css.developertag}>BarHop</div>
-    <br />
+
     <div className={css.aboutMeTwo}>
       <div className={css.aboutMeTwoP}>
         <div className={css.developerpara}>
@@ -46,23 +46,41 @@ const Barhop = props => (
           </div>
           <br />
           <div className={css.icon_container}>
-            <div className={css.developertag}>
-              Click here to view Github repo
+            <div className={css.button_cont}>
+              <a
+                className={css.example_e}
+                href="add-website-here"
+                target="_blank"
+                rel="nofollow noopener"
+              >
+                GitHub
+              </a>
             </div>
-            <div className={css.developertag}>
-              Click here to view site on Heroku
+            <div className={css.button_cont}>
+              <a
+                className={css.example_e}
+                href="add-website-here"
+                target="_blank"
+                rel="nofollow noopener"
+              >
+                Heroku
+              </a>
             </div>
           </div>
         </div>
       </div>
     </div>
     <br />
-    <div>
+    <div className={css.oddjob_pose}>
       <img
-        src="https://i.imgur.com/tl5nB1q.png"
-        className={css.footer}
-        alt="footer"
+        src="https://i.imgur.com/0OQZDh0.png"
+        className={css.pose}
+        id="pose"
+        alt="pose"
       />
+    </div>
+    <div>
+      <div className={css.footer}>Hey</div>
     </div>
   </div>
 );
