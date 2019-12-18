@@ -1,5 +1,6 @@
 import Nav from "../components/nav";
 import css from "./style/index.css";
+import { Link } from "react-scroll";
 
 const Barhop = props => (
   <div className={css.barhop_body}>
@@ -7,17 +8,21 @@ const Barhop = props => (
       <Nav />
     </div>
     <div className={css.container}>
-      <img
-        src="https://i.imgur.com/ctB80At.jpg"
-        className={css.top}
-        alt="oddjobs_image"
-      />
+      <img src="../static/bar.jpg" className={css.top} alt="oddjobs_image" />
       <div className={css.textblock}>
-        <div className={css.topblock}>BarHop</div>
+        <div className={css.topblock}>
+          <Link to="barhop_image" smooth={true} offset={50} duration={1500}>
+            <div className={css.arrow}>
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </Link>
+        </div>
       </div>
     </div>
     <br />
-    <div className={css.oddjobs_image_div}>
+    <div className={css.oddjobs_image_div} id="barhop_image">
       <img
         src="https://i.imgur.com/j8GO18n.jpg"
         className={css.oddjobs_image}

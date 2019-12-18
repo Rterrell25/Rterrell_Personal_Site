@@ -315,10 +315,23 @@ body {
   position: absolute;
   z-index: 999;
   margin: 0 auto;
-  left: 30%;
+  left: 1%;
   right: 0;
   text-align: center;
-  top: 10%; /* Adjust this value to move the positioned div up and down */
+  top: 60%; /* Adjust this value to move the positioned div up and down */
+
+  font-family: "Cookie", cursive;
+  color: #fff;
+  width: 60%; /* Set the width of the positioned div */
+}
+.index_container .index_textblock {
+  position: absolute;
+  z-index: 999;
+  margin: 0 auto;
+  left: 1%;
+  right: 0;
+  text-align: center;
+  top: 80%; /* Adjust this value to move the positioned div up and down */
 
   font-family: "Cookie", cursive;
   color: #fff;
@@ -372,6 +385,42 @@ body {
   background-color: #b45b36;
 }
 
+.arrow {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+}
+.arrow span {
+  display: block;
+  width: 30px;
+  height: 30px;
+  border-bottom: 5px solid white;
+  border-right: 5px solid white;
+  transform: rotate(45deg);
+
+  animation: animate 2s infinite;
+}
+.arrow span:nth-child(2) {
+  animation-delay: -0.2s;
+}
+.arrow span:nth-child(3) {
+  animation-delay: -0.2s;
+}
+@keyframes animate {
+  0% {
+    opacity: 0;
+    transform: rotate(45deg) translate(-20px, -20px);
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: rotate(45deg) translate(20px, 20px);
+  }
+}
 @media (max-width: 991px) {
   .oddjobdevelopertag {
     font-family: "Cookie", cursive;
