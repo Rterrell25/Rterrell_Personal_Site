@@ -11,7 +11,7 @@ const Portfolio = props => {
       </div>
       <div className={css.container}>
         <img
-          src="../static/portfolio.jpg"
+          src="../static/test.jpg"
           className={css.about_image}
           alt="plumber"
         />
