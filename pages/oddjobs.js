@@ -1,5 +1,6 @@
 import Nav from "../components/nav";
 import css from "./style/index.css";
+import { Link } from "react-scroll";
 
 const Oddjobs = props => (
   <div className={css.oddjobs_body}>
@@ -7,16 +8,20 @@ const Oddjobs = props => (
       <Nav />
     </div>
     <div className={css.container}>
-      <img
-        src="https://i.imgur.com/GOjpbaR.jpg"
-        className={css.top}
-        alt="oddjobs"
-      />
+      <img src="../static/plumber.jpg" className={css.top} alt="oddjobs" />
       <div className={css.textblock}>
-        <div className={css.topblock}>Oddjobs</div>
+        <div className={css.topblock}>
+          <Link to="oddjob_image" smooth={true} offset={50} duration={1500}>
+            <div className={css.arrow}>
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </Link>
+        </div>
       </div>
     </div>
-    <div className={css.oddjobs_image_div}>
+    <div className={css.oddjobs_image_div} id="oddjob_image">
       <img
         src="https://i.imgur.com/Tojgmv8.png"
         className={css.oddjobs_image}

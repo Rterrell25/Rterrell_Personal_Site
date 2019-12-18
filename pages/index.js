@@ -1,6 +1,7 @@
 import Nav from "../components/nav";
 import Head from "next/head";
 import css from "./style/index.css";
+import { Link } from "react-scroll";
 
 const Home = props => (
   <div className={css.home_background}>
@@ -10,29 +11,34 @@ const Home = props => (
     <div className={css.nav}>
       <Nav />
     </div>
-    <div className={css.container}>
-      <img
-        src="https://i.imgur.com/Ih4R4t8.jpg"
-        className={css.top}
-        alt="top_city"
-      />
-      <div className={css.textblock}>
-        <div className={css.topblock}>I'm Robert Terrell</div>
-        <div className={css.bottomblock}>A Full Stack Web Developer</div>
+    <div className={css.index_container}>
+      <img src="../static/city.jpg" className={css.top} alt="top_city" />
+      <div className={css.index_textblock}>
+        <div className={css.topblock}>
+          <Link to="wyncode_div" smooth={true} offset={50} duration={1500}>
+            <div className={css.arrow}>
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </Link>
+        </div>
       </div>
+
       <div>
         <img
-          src="https://i.imgur.com/UxzRIrg.jpg"
+          src="../static/down.jpg"
           className={css.topOne}
           alt="bottom_city"
         />
       </div>
     </div>
     <div className={css.flex_column}>
-      <div className={css.wyncode_image_div}>
+      <div className={css.wyncode_image_div} id="wyncode_div">
         <img
           src="https://i.imgur.com/N0cUlg7.png"
           className={css.wyncode_image}
+          id="wyncode_image"
           alt="memoji"
         ></img>
       </div>
