@@ -24,10 +24,6 @@ const Nav = props => (
         >
           Resume
         </a>
-
-        <Link href="/contact">
-          <a className={css.contact}>Contact</a>
-        </Link>
       </div>
     </div>
   </nav>

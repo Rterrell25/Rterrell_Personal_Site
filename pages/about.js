@@ -33,7 +33,6 @@ const About = props => (
     <div className={css.aboutMeTwo}>
       <div className={css.aboutMeTwoP}>
         <div className={css.developerpara}>
-          <br />
           <div className={css.p2}>
             I am originally from Indianapolis, Indiana. After graduating from
             Indiana University, I found work at a small/large business loan
@@ -50,11 +49,7 @@ const About = props => (
     </div>
     <br />
     <div>
-      <img
-        src="https://i.imgur.com/tl5nB1q.png"
-        className={css.footer}
-        alt="footer"
-      />
+      <div className={css.footer}>Hey</div>
     </div>
   </div>
 );

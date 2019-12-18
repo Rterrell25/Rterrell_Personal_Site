@@ -45,12 +45,9 @@ const Home = props => (
       <br />
       <div className={css.image_caption}>
         <div className={css.tag_line}>Not Your Average Web Developer</div>
-        <br />
+
         <div className={css.image_label}>
           "I've developed a passion for creating highly interactive web
-        </div>
-        <div className={css.image_label_two}>
-          {" "}
           applications with clean, elegant, and efficient code."
         </div>
       </div>
@@ -64,7 +61,7 @@ const Home = props => (
       />
     </div>
     <div className={css.developertag}>What I can do.</div>
-    <br />
+
     <div className={css.aboutMeTwo}>
       <div className={css.aboutMeTwoP}>
         <div className={css.developerpara}>
@@ -84,13 +81,7 @@ const Home = props => (
       </div>
     </div>
     <br />
-    <div>
-      <img
-        src="https://i.imgur.com/tl5nB1q.png"
-        className={css.footer}
-        alt="footer"
-      />
-    </div>
+    <div className={css.footer}>Hey</div>
   </div>
 );
 export default Home;

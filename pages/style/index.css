@@ -1,7 +1,12 @@
 @import url("https://fonts.googleapis.com/css?family=Public+Sans&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Cookie&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Teko&display=swap");
-
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+@import "https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300";
+html,
+body {
+  overflow-x: hidden;
+}
 .home_background {
   background-color: #0091ca;
 }
@@ -39,7 +44,7 @@
   text-align: center;
   top: 10%; /* Adjust this value to move the positioned div up and down */
 
-  font-family: "Cookie", cursive;
+  font-family: "Roboto", sans-serif;
   color: #fff;
   width: 60%; /* Set the width of the positioned div */
 }
@@ -116,10 +121,6 @@ a {
 .full_name {
   font-size: 25px;
 }
-html,
-body {
-  height: 100%;
-}
 
 body {
   background-size: 400% 400%;
@@ -149,7 +150,7 @@ body {
 
 .tag_line {
   font-size: 30px;
-  font-family: "Cookie", cursive;
+  font-family: "Roboto", sans-serif;
   text-shadow: 2px 2px black;
 }
 
@@ -244,7 +245,7 @@ body {
 .aboutMe {
   display: flex;
   justify-content: center;
-  font-family: "Cookie", cursive;
+  font-family: "Roboto", sans-serif;
   font-size: 30px;
 
   color: white;
@@ -255,9 +256,10 @@ body {
   justify-content: center;
   font-family: "Public Sans", sans-serif;
   color: white;
+  margin-top: 1%;
 }
 .developertag {
-  font-family: "Cookie", cursive;
+  font-family: "Roboto", sans-serif;
   color: #fff;
   text-shadow: 2px 2px black;
   font-size: 30px;
@@ -265,13 +267,14 @@ body {
 }
 
 .aboutMeTwoP {
-  width: 60%;
+  width: 70%;
+  text-align: left;
 }
 .footer {
-  height: 340px;
+  height: 10vh;
   width: 100%;
-  margin-bottom: -4px;
-  margin-top: 8%;
+  background-color: #3b3b3b;
+  margin-top: 15%;
 }
 .pose {
   display: block;
@@ -320,7 +323,7 @@ body {
   text-align: center;
   top: 60%; /* Adjust this value to move the positioned div up and down */
 
-  font-family: "Cookie", cursive;
+  font-family: "Roboto", sans-serif;
   color: #fff;
   width: 60%; /* Set the width of the positioned div */
 }
@@ -333,7 +336,7 @@ body {
   text-align: center;
   top: 80%; /* Adjust this value to move the positioned div up and down */
 
-  font-family: "Cookie", cursive;
+  font-family: "Roboto", sans-serif;
   color: #fff;
   width: 60%; /* Set the width of the positioned div */
 }
@@ -344,7 +347,17 @@ body {
   background-color: #6f9fa9;
 }
 .oddjobs_image {
-  width: 60%;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  flex: 25%;
+}
+.oddjob_pose {
+  margin-top: 5%;
+}
+.barhop_image {
+  width: 70%;
   margin-left: auto;
   margin-right: auto;
   display: block;
@@ -364,7 +377,7 @@ body {
 }
 
 .oddjobdevelopertag {
-  font-family: "Cookie", cursive;
+  font-family: "Roboto", sans-serif;
   color: black;
   text-shadow: 2px 2px white;
   font-size: 30px;
@@ -421,9 +434,54 @@ body {
     transform: rotate(45deg) translate(20px, 20px);
   }
 }
+.image_label {
+  margin-top: 1%;
+  text-align: center;
+}
+.example_e {
+  border: none;
+  background: #404040;
+  color: #ffffff !important;
+  font-weight: 100;
+  padding: 7%;
+  width: 200px;
+  text-transform: uppercase;
+
+  display: inline-block;
+  transition: all 0.3s ease 0s;
+  text-align: center;
+}
+.example_e:hover {
+  color: #404040 !important;
+  font-weight: 700 !important;
+  letter-spacing: 3px;
+  background: none;
+  -webkit-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+  -moz-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+  transition: all 0.3s ease 0s;
+}
+
 @media (max-width: 991px) {
+  .example_e {
+    width: 80px;
+  }
+  .tag_line {
+    font-size: 15px;
+    font-family: "Roboto", sans-serif;
+    text-shadow: 2px 2px black;
+  }
+  .image_label {
+    font-size: 10px;
+  }
+  .image_label_two {
+    font-size: 10px;
+  }
+  .arrow span {
+    visibility: hidden;
+  }
+
   .oddjobdevelopertag {
-    font-family: "Cookie", cursive;
+    font-family: "Roboto", sans-serif;
     color: black;
     text-shadow: 2px 2px white;
     font-size: 12px;
@@ -435,11 +493,7 @@ body {
   .developerpara {
     font-size: 10px;
   }
-  .footer {
-    height: 130px;
-    width: 100%;
-    margin-bottom: -4px;
-  }
+
   .pose {
     display: block;
     align-items: center;
@@ -465,14 +519,31 @@ body {
   .aboutMe {
     display: flex;
     justify-content: center;
-    font-family: "Cookie", cursive;
+    font-family: "Roboto", sans-serif;
     font-size: 30px;
   }
 }
 
 @media (max-width: 767px) {
+  .example_e {
+    width: 80px;
+  }
+  .tag_line {
+    font-size: 15px;
+    font-family: "Roboto", sans-serif;
+    text-shadow: 2px 2px black;
+  }
+  .image_label {
+    font-size: 10px;
+  }
+  .image_label_two {
+    font-size: 10px;
+  }
+  .arrow span {
+    visibility: hidden;
+  }
   .oddjobdevelopertag {
-    font-family: "Cookie", cursive;
+    font-family: "Roboto", sans-serif;
     color: black;
     text-shadow: 2px 2px white;
     font-size: 12px;
@@ -490,11 +561,7 @@ body {
     height: 250px;
     width: 250px;
   }
-  .footer {
-    height: 130px;
-    width: 100%;
-    margin-bottom: -4px;
-  }
+
   .social-icons li.title {
     display: block;
     margin-right: 0;
@@ -515,7 +582,7 @@ body {
     flex: 25%;
   }
   .developertag {
-    font-family: "Cookie", cursive;
+    font-family: "Roboto", sans-serif;
     color: #fff;
     text-shadow: 2px 2px black;
     font-size: 15px;
@@ -524,13 +591,30 @@ body {
   .aboutMe {
     display: flex;
     justify-content: center;
-    font-family: "Cookie", cursive;
+    font-family: "Roboto", sans-serif;
     font-size: 20px;
   }
 }
 @media screen and (max-width: 800px) {
+  .example_e {
+    width: 80px;
+  }
+  .tag_line {
+    font-size: 15px;
+    font-family: "Roboto", sans-serif;
+    text-shadow: 2px 2px black;
+  }
+  .image_label {
+    font-size: 10px;
+  }
+  .image_label_two {
+    font-size: 10px;
+  }
+  .arrow span {
+    visibility: hidden;
+  }
   .oddjobdevelopertag {
-    font-family: "Cookie", cursive;
+    font-family: "Roboto", sans-serif;
     color: black;
     text-shadow: 2px 2px white;
     font-size: 12px;
@@ -548,22 +632,18 @@ body {
     height: 250px;
     width: 250px;
   }
-  .footer {
-    height: 130px;
-    width: 100%;
-    margin-bottom: -4px;
-  }
+
   .developerpara {
     font-size: 10px;
   }
   .aboutMe {
     display: flex;
     justify-content: center;
-    font-family: "Cookie", cursive;
+    font-family: "Roboto", sans-serif;
     font-size: 20px;
   }
   .developertag {
-    font-family: "Cookie", cursive;
+    font-family: "Roboto", sans-serif;
     color: #fff;
     text-shadow: 2px 2px black;
     font-size: 15px;
@@ -599,8 +679,25 @@ body {
   }
 }
 @media screen and (max-width: 600px) {
+  .example_e {
+    width: 80px;
+  }
+  .tag_line {
+    font-size: 15px;
+    font-family: "Roboto", sans-serif;
+    text-shadow: 2px 2px black;
+  }
+  .image_label {
+    font-size: 10px;
+  }
+  .image_label_two {
+    font-size: 10px;
+  }
+  .arrow span {
+    visibility: hidden;
+  }
   .oddjobdevelopertag {
-    font-family: "Cookie", cursive;
+    font-family: "Roboto", sans-serif;
     color: black;
     text-shadow: 2px 2px white;
     font-size: 12px;
@@ -615,11 +712,7 @@ body {
     height: 250px;
     width: 250px;
   }
-  .footer {
-    height: 130px;
-    width: 100%;
-    margin-bottom: -4px;
-  }
+
   .developerpara {
     font-size: 10px;
   }
@@ -628,7 +721,7 @@ body {
     width: 200px;
   }
   .developertag {
-    font-family: "Cookie", cursive;
+    font-family: "Roboto", sans-serif;
     color: #fff;
     text-shadow: 2px 2px black;
     font-size: 15px;
@@ -636,7 +729,7 @@ body {
   .aboutMe {
     display: flex;
     justify-content: center;
-    font-family: "Cookie", cursive;
+    font-family: "Roboto", sans-serif;
     font-size: 20px;
   }
   .column {
@@ -666,8 +759,25 @@ body {
   }
 }
 @media screen and (max-width: 570px) {
+  .example_e {
+    width: 80px;
+  }
+  .tag_line {
+    font-size: 15px;
+    font-family: "Roboto", sans-serif;
+    text-shadow: 2px 2px black;
+  }
+  .image_label {
+    font-size: 10px;
+  }
+  .image_label_two {
+    font-size: 10px;
+  }
+  .arrow span {
+    visibility: hidden;
+  }
   .oddjobdevelopertag {
-    font-family: "Cookie", cursive;
+    font-family: "Roboto", sans-serif;
     color: black;
     text-shadow: 2px 2px white;
     font-size: 12px;
@@ -685,16 +795,12 @@ body {
     height: 250px;
     width: 250px;
   }
-  .footer {
-    height: 130px;
-    width: 100%;
-    margin-bottom: -4px;
-  }
+
   .developerpara {
     font-size: 10px;
   }
   .developertag {
-    font-family: "Cookie", cursive;
+    font-family: "Roboto", sans-serif;
     color: #fff;
     text-shadow: 2px 2px black;
     font-size: 15px;
@@ -715,8 +821,25 @@ body {
   }
 }
 @media only screen and (max-device-width: 375px) {
+  .example_e {
+    width: 80px;
+  }
+  .tag_line {
+    font-size: 15px;
+    font-family: "Roboto", sans-serif;
+    text-shadow: 2px 2px black;
+  }
+  .image_label {
+    font-size: 10px;
+  }
+  .image_label_two {
+    font-size: 10px;
+  }
+  .arrow span {
+    visibility: hidden;
+  }
   .oddjobdevelopertag {
-    font-family: "Cookie", cursive;
+    font-family: "Roboto", sans-serif;
     color: black;
     text-shadow: 2px 2px white;
     font-size: 12px;
@@ -734,16 +857,12 @@ body {
     height: 250px;
     width: 250px;
   }
-  .footer {
-    height: 130px;
-    width: 100%;
-    margin-bottom: -4px;
-  }
+
   .developerpara {
     font-size: 10px;
   }
   .developertag {
-    font-family: "Cookie", cursive;
+    font-family: "Roboto", sans-serif;
     color: #fff;
     text-shadow: 2px 2px black;
     font-size: 15px;
@@ -829,8 +948,25 @@ body {
   }
 }
 @media only screen and (max-device-width: 414px) {
+  .example_e {
+    width: 80px;
+  }
+  .tag_line {
+    font-size: 15px;
+    font-family: "Roboto", sans-serif;
+    text-shadow: 2px 2px black;
+  }
+  .image_label {
+    font-size: 10px;
+  }
+  .image_label_two {
+    font-size: 10px;
+  }
+  .arrow span {
+    visibility: hidden;
+  }
   .oddjobdevelopertag {
-    font-family: "Cookie", cursive;
+    font-family: "Roboto", sans-serif;
     color: black;
     text-shadow: 2px 2px white;
     font-size: 12px;
@@ -848,11 +984,7 @@ body {
     height: 250px;
     width: 250px;
   }
-  .footer {
-    height: 130px;
-    width: 100%;
-    margin-bottom: -4px;
-  }
+
   .developerpara {
     font-size: 10px;
   }
