@@ -66,14 +66,14 @@ const Home = props => (
       <div className={css.aboutMeTwoP}>
         <div className={css.developerpara}>
           <div className={css.p2}>
-            Front End Development: building out the visual components of a
+            Front-End Development: Building out the visual components of a
             website using HTML5, CSS3, Javascript, and React.js. I build fast,
             interactive websites. Feel free to take a look at my latest projects
             on the portfolio page.
           </div>
           <br />
           <div>
-            Backend Development: technologies that I have worked in are Ruby on
+            Back-End Development: Technologies that I have worked in are Ruby on
             Rails with a PostgreSQL database, expressJS with a mongodb database,
             and Apollo with Prisma and a MySQL database.
           </div>
