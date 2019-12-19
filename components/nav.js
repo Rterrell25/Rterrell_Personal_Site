@@ -11,6 +11,9 @@ const Nav = props => (
         </div>
       </Link>
       <div className={css.navbar_right}>
+        <Link href="/">
+          <a className={css.about}>Home</a>
+        </Link>
         <Link href="/about">
           <a className={css.about}>About</a>
         </Link>
