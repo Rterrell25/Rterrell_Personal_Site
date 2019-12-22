@@ -59,7 +59,7 @@ const Barhop = props => (
             <div className={css.button_cont}>
               <a
                 className={css.example_e}
-                href=""
+                href="https://barhop-wyncode.herokuapp.com/"
                 target="_blank"
                 rel="nofollow noopener"
               >
