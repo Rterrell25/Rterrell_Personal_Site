@@ -49,7 +49,7 @@ const Barhop = props => (
             <div className={css.button_cont}>
               <a
                 className={css.example_e}
-                href="add-website-here"
+                href="https://github.com/Rterrell25/Bar_Hop_React_App"
                 target="_blank"
                 rel="nofollow noopener"
               >
@@ -59,7 +59,7 @@ const Barhop = props => (
             <div className={css.button_cont}>
               <a
                 className={css.example_e}
-                href="add-website-here"
+                href="https://barhop-wyncode.herokuapp.com/"
                 target="_blank"
                 rel="nofollow noopener"
               >
