@@ -49,7 +49,7 @@ const Oddjobs = props => (
             <div className={css.button_cont}>
               <a
                 className={css.example_e}
-                href="https://github.com/Rterrell25/Oddjobs_React_App"
+                href="add-website-here"
                 target="_blank"
                 rel="nofollow noopener"
               >
@@ -59,7 +59,7 @@ const Oddjobs = props => (
             <div className={css.button_cont}>
               <a
                 className={css.example_e}
-                href=""
+                href="add-website-here"
                 target="_blank"
                 rel="nofollow noopener"
               >
