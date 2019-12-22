@@ -81,7 +81,27 @@ const Home = props => (
       </div>
     </div>
     <br />
-    <div className={css.footer}>Hey</div>
+    <div className={css.footer}>
+      <div className={css.foot_div}>
+        <a
+          href="https://github.com/Rterrell25"
+          target="_blank"
+          className={css.foot_one}
+        >
+          <p className={css.foot_one}>Github</p>
+        </a>
+        <a href="https://docs.google.com/document/d/1AWbR3JS3uA0MDuuRsILJWJMgCVEeslff/export?format=pdf">
+          Download My Resume
+        </a>
+        <a
+          href="https://www.linkedin.com/in/rterrell25/"
+          target="_blank"
+          className={css.foot_three}
+        >
+          <p>LinkedIn</p>
+        </a>
+      </div>
+    </div>
   </div>
 );
 export default Home;
